@@ -53,6 +53,7 @@ class Carta{
             }else{
                 storage.push(carta);
                 localStorage.setItem("misCartas", JSON.stringify(storage));
+                alert("Carta guardada correctamente.")
             }
         }else{
             storage.push(carta);
